@@ -2,7 +2,7 @@
 
 ![NASA](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/1280px-NASA_Worm_logo.svg.png)
 
-Live Demo link ![here](https://brentwatch2021.github.io/NASAIMG/)
+Live Demo link [here](https://brentwatch2021.github.io/NASAIMG/)
 
 This Web App will display the NASA Image of the day consuming their public API.
 
