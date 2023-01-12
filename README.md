@@ -18,6 +18,7 @@ An input for the user's API Key will be provided before request is submitted by 
 - HttpClient API Requests with queries
 - Standalone Components
 - Angular Material
+- Routing
 - Mobile Responsive
 - Deploy to Github Pages
 
