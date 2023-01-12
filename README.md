@@ -18,8 +18,10 @@ An input for the user's API Key will be provided before request is submitted by 
 - HttpClient API Requests with queries
 - Standalone Components
 - Angular Material
+- App Routing 
 - Mobile Responsive
 - Deploy to Github Pages
+- Other new features of Angular 15
 
 
 ## NOTE: This is only for learning purposes No Private Commercial purposes.
