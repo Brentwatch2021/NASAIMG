@@ -20,3 +20,7 @@ An input for the user's API Key will be provided before request is submitted by 
 - Angular Material
 - Mobile Responsive
 - Deploy to Github Pages
+
+
+## NOTE: This is only for learning purposes No Private Commercial purposes.
+
