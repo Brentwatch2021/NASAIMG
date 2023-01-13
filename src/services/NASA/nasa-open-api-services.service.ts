@@ -14,14 +14,13 @@ export class NASAOPENAPISERVICESService {
   // Curiosity Rover to see images from different cameras on the Rover on MARS
   constructor(private HttpClient: HttpClient) { }
 
-  private APIURL:string = `https://api.nasa.gov/planetary/apod?api_key=`
+  private APIURL:string = `https://api.nasa.gov/planetary/apod?api_key=NrVy5W2Yyt24lJ17us7YL66JdGbLsP81ZFl440xO`
 
   // User will need to generate their own NASA API KEY
 
   // Get NASA Image of the day
   getNASAImageOftheDay(): Observable<nasa_IFTD>
   {
-    
     const header = new HttpHeaders().set('Content-type','application/json');
     return this.HttpClient.get<nasa_IFTD>(`${this.APIURL}`, {headers:header,withCredentials: false});
   }
