@@ -11,9 +11,16 @@ The User will need to provide thier own API KEY and can be generated [here](http
 An input for the user's API Key will be provided before request is submitted by the user.
 
 ## Technology Stack
-- Angular 15 
+- Angular
+    - AngularJS Expressions {{}} including ng-bind and [value]=`data.Name`
+    - Browser events use () to specifiy for element <(click)=`TScodeMethod`>
+    - #ReferenceNameForComponent using the hashtag to name your DOM elements
+- Angular 15
 - Typescript
 - Angular 15 Material
+- NGRX 
+- Kendo UI Core
+- ThreeJS
 
 ## Learning Objectives
 
