@@ -11,26 +11,38 @@ The User will need to provide thier own API KEY and can be generated [here](http
 An input for the user's API Key will be provided before request is submitted by the user.
 
 ## Technology Stack
-- Angular
+- Angular 
     - AngularJS Expressions {{}} including ng-bind and [value]=`data.Name`
     - Browser events use () to specifiy for element <(click)=`TScodeMethod`>
     - #ReferenceNameForComponent using the hashtag to name your DOM elements
+    - Custom components with @Component
+    - Input Component Variables title: Input()  apiURL: [src]="apiUrl"
+    - Decorators Input, Output and Event Emitters for custom events
 - Angular 15
 - Typescript
-- Angular 15 Material
-- NGRX 
-- Kendo UI Core
-- ThreeJS
+- ngrx 
+- Kendo UI 
 
 ## Learning Objectives
 
-- HttpClient API Requests with queries
+- HttpClient GET Requests with parameters
 - Standalone Components
-- Angular Material
 - Mobile Responsive
 - Deploy to Github Pages
 - Other new features of Angular 15
+- Custom components with @Component
+- Components @Input and @Output, event Emitters
+- ngFor
+- ngIf
+- ngClass
+- ngStyle
+- ngSwitch
+- Built-In Pipes 
+- Async Pipe
+- Custom Pipes
+- @Injectable and Custom Services
+- HTTP Client - GET POST PUT DELETE
 
 
-## NOTE: This is only for learning purposes No Private Commercial purposes.
+## NOTE: This is not for Commercial purposes.
 

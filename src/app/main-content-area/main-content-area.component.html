@@ -13,11 +13,7 @@
             </button>
         </mat-card-actions>
     </mat-card> -->
-    <div class="mycard">
-        <p>NASA Image of the Day</p>
-        <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"/>
-        <button mat-raised-button color="primary" (click)="viewApiService()">View</button>
-    </div>
+    <app-api-card (api_Selected)="viewApiService($event)" title="Nasa Image of the day"></app-api-card>
     
 </div>
 

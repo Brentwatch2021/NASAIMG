@@ -13,7 +13,6 @@ import { nasa_IFTD } from 'src/services/NASA/models/nasa_IFTD.model';
 export class ApiDetailComponent {
 
   NasaIFTD: nasa_IFTD = new nasa_IFTD("","","", "","", "", "", "");
-
   constructor(private nasaServices: NASAOPENAPISERVICESService) {}
 
   ngOnInit():void
