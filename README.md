@@ -6,7 +6,7 @@ Live Demo link [here](https://brentwatch2021.github.io/NASAIMG/)
 
 This Web App will display the NASA Image of the day consuming their public API.
 
-The User will need to provide thier own API KEY and can be generated [here](https://api.nasa.gov/). from NASA for free.
+The User will need to provide their own API KEY and can be generated [here](https://api.nasa.gov/). from NASA for free.
 
 An input for the user's API Key will be provided before request is submitted by the user.
 
@@ -18,6 +18,7 @@ An input for the user's API Key will be provided before request is submitted by 
     - Custom components with @Component
     - Input Component Variables title: Input()  apiURL: [src]="apiUrl"
     - Decorators Input, Output and Event Emitters for custom events
+    - ngFor
 - Angular 15
 - Typescript
 - ngrx 

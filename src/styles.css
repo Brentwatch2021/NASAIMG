@@ -1,4 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files TODO investigate css specificaty issue */
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+app-api-card.is-First
+{
+    background: green;
+}
+
+app-api-card.is-Last
+{
+    background: red;
+}
+
+app-api-card.is-Even
+{
+    background: white; 
+}
+
+app-api-card.is-Odd
+{
+    background: purple;
+}

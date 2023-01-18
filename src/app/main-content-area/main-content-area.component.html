@@ -13,8 +13,26 @@
             </button>
         </mat-card-actions>
     </mat-card> -->
-    <app-api-card (api_Selected)="viewApiService($event)" title="Nasa Image of the day"></app-api-card>
+    <!-- <app-api-card (api_Selected)="viewApiService($event)" title="Nasa Image of the day"></app-api-card> -->
     
+    <app-api-card *ngFor="let api of openApis;
+                    index as i;
+                    first as isFirst;
+                    last as isLast;
+                    even as isEven;
+                    odd as isOdd;
+                    "
+                    [title]="api.name"
+                    (api_Selected)="viewApiService($event)"
+                    [class.is-First]="isFirst"
+                    [class.is-Last]="isLast"
+                    [class.is-Even]="isEven"
+                    [class.is-Odd]="isOdd"
+                    >
+
+    </app-api-card>
+
+
 </div>
 
 

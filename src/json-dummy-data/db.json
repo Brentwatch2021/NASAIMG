@@ -1,0 +1,12 @@
+{
+    "open_apis": [
+      {
+        "id": 1,
+        "name": "NASA Image of the Day",
+        "src": "australia",
+        "getUrl": "",
+        "apiDetailRouterURL":"/api-detail",
+        "categories": "NASA, Science,STEM"
+      }
+    ]
+  }

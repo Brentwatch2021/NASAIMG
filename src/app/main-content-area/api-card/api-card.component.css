@@ -11,3 +11,12 @@
     width: 400px;
     height: 200px;
 }
+
+.is-first
+{
+    background-color: red;
+}
+/* [class.is-first]="isFirst"
+                    [class.is-Last]="isLast"
+                    [class.is-Even]="isEven"
+                    [class.is-Odd]="isOdd" */
