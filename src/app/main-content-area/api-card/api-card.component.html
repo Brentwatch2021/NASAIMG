@@ -1,5 +1,5 @@
 <div class="mycard" [ngClass]="cardClasses()">
-    <p *ngIf="title === 'NASA Image of the Day';">{{title}}</p>
+    <p *ngIf="title === 'NASA Image of the Day';" [ngStyle]="{'color':'red'}">{{title}}</p>
     <img width="100" height="100" [src]="apiUrl"/>
-    <button mat-raised-button color="primary" (click)="viewAPIService()">View</button>    
+    <button mat-raised-button color="primary"  (click)="viewAPIService()">View</button>    
 </div>
