@@ -22,7 +22,7 @@
                     even as isEven;
                     odd as isOdd;
                     "
-                    [title]="api.name"
+                    [title]="api?.name"
                     (api_Selected)="viewApiService($event)"
                     [class.is-First]="isFirst"
                     [class.is-Last]="isLast"
