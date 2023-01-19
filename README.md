@@ -20,6 +20,7 @@ An input for the user's API Key will be provided before request is submitted by 
     - Decorators Input, Output and Event Emitters for custom events
     - ngFor
     - ngIf and the Elvis Operator ? [title]="api?.name"
+    - ngClass and css Configuration file for api-card component
     
 - Angular 15
 - Typescript

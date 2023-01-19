@@ -20,3 +20,9 @@
                     [class.is-Last]="isLast"
                     [class.is-Even]="isEven"
                     [class.is-Odd]="isOdd" */
+
+.multi-get-params-card
+{
+    border-radius: 20px;
+    
+}

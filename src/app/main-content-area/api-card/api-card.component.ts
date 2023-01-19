@@ -16,6 +16,9 @@ export class ApiCardComponent {
   title : string = '';
 
   @Input()
+  multiParamselect : string = 'howzit';
+
+  @Input()
   apiUrl : string = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png'
 
   @Output()
@@ -27,5 +30,12 @@ export class ApiCardComponent {
   {
     // this._router.navigate(['api-detail']);
     this.api_Selected.emit('Api Viewed');
+  }
+
+  cardClasses()
+  {
+    return {
+      'multi-get-params-card': this.multiParamselect
+    };
   }
 }

@@ -12,6 +12,7 @@ export const openAPIS:OpenApi[] = [
             getUrl: "",
             apiDetailRouterURL:"/api-detail",
             categories: "NASA, Science,STEM",
+            multiparamSelect:true,
           }
     
 ]
