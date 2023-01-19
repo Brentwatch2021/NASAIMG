@@ -11,7 +11,7 @@ export const openAPIS:OpenApi[] = [
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png",
             getUrl: "",
             apiDetailRouterURL:"/api-detail",
-            categories: "NASA, Science,STEM",
+            category: "Aerospace",
             multiparamSelect:true,
           }
     

@@ -1,5 +1,15 @@
 <div class="mycard" [ngClass]="cardClasses()">
     <p *ngIf="title === 'NASA Image of the Day';" [ngStyle]="{'color':'red'}">{{title}}</p>
     <img width="100" height="100" [src]="apiUrl"/>
+    <div class="" [ngSwitch]="category">
+
+        <p *ngSwitchCase="'Aerospace'"> Awesome {{category}}</p>
+        <p *ngSwitchCase="'Sports'">Awesome {{category}}</p>
+        <p *ngSwitchCase="'Film'">Awesome {{category}}</p>
+        <p *ngSwitchCase="'Space'">Awesome {{category}}</p>
+        <p *ngSwitchDefault="''">Awesome</p>
+
+    </div>
+
     <button mat-raised-button color="primary"  (click)="viewAPIService()">View</button>    
 </div>

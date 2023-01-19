@@ -23,12 +23,14 @@
                     odd as isOdd;
                     "
                     [title]="api?.name"
+                    [category]="api?.category"
                     (api_Selected)="viewApiService($event)"
                     [class.is-First]="isFirst"
                     [class.is-Last]="isLast"
                     [class.is-Even]="isEven"
                     [class.is-Odd]="isOdd"
                     [multiParamselect]="api.multiparamSelect"
+
                      >
 
     </app-api-card>

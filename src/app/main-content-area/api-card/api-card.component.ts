@@ -21,6 +21,10 @@ export class ApiCardComponent {
   @Input()
   apiUrl : string = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png'
 
+  @Input()
+  category : string = '';
+
+
   @Output()
   api_Selected = new EventEmitter<string>();
 

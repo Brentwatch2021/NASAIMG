@@ -22,6 +22,7 @@ An input for the user's API Key will be provided before request is submitted by 
     - ngIf and the Elvis Operator ? [title]="api?.name"
     - ngClass and css Configuration file for api-card component
     - ngStyle for separate UI styling [ngStyle]="{'color':'red'}"
+    - ngSwitch [ngSwitch]="category"
     
 - Angular 15
 - Typescript
