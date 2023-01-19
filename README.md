@@ -23,6 +23,7 @@ An input for the user's API Key will be provided before request is submitted by 
     - ngClass and css Configuration file for api-card component
     - ngStyle for separate UI styling [ngStyle]="{'color':'red'}"
     - ngSwitch [ngSwitch]="category"
+    - built in pipe date used in api-detail page
     
 - Angular 15
 - Typescript
