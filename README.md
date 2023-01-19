@@ -19,6 +19,7 @@ An input for the user's API Key will be provided before request is submitted by 
     - Input Component Variables title: Input()  apiURL: [src]="apiUrl"
     - Decorators Input, Output and Event Emitters for custom events
     - ngFor
+    - ngIf
 - Angular 15
 - Typescript
 - ngrx 
