@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NASAOPENAPISERVICESService } from 'src/services/NASA/nasa-open-api-services.service';
 import { nasa_IFTD } from 'src/services/NASA/models/nasa_IFTD.model';
+import { NasaRoverData } from 'src/services/NASA/models/nasa-rover-data.model';
 
 @Component({
   selector: 'app-api-detail',
@@ -18,6 +19,7 @@ export class ApiDetailComponent {
   ngOnInit():void
   {
     this.GetNasaImageOfTheDay();
+    this.GetRoverData();
   }
 
   GetNasaImageOfTheDay()
@@ -35,6 +37,21 @@ export class ApiDetailComponent {
         
       }
     );
+  }
+
+  GetRoverData()
+  {
+    this.nasaServices.getRoverData()
+    .subscribe(
+      {
+        next: (nasaValue:NasaRoverData) => {
+          console.log(nasaValue);
+        },
+        error: (e:any) => {
+          console.warn(e);
+        }
+      }
+    )
   }
 
 }
