@@ -3,6 +3,7 @@ import {HttpClient,HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { nasa_IFTD } from './models/nasa_IFTD.model';
 import { NasaRoverData } from './models/nasa-rover-data.model';
+import { NasaIFTD } from './models/nasa--iftd';
 
 @Injectable({
   providedIn: 'root'
@@ -29,10 +30,10 @@ export class NASAOPENAPISERVICESService {
   // User will need to generate their own NASA API KEY
 
   // Get NASA Image of the day
-  getNASAImageOftheDay(): Observable<nasa_IFTD>
+  getNASAImageOftheDay(): Observable<NasaIFTD>
   {
     const header = new HttpHeaders().set('Content-type','application/json');
-    return this.HttpClient.get<nasa_IFTD>(`${this.IMAGE_OF_THE_DAY_API_URL}${this.api_key}`, {headers:header,withCredentials: false});
+    return this.HttpClient.get<NasaIFTD>(`${this.IMAGE_OF_THE_DAY_API_URL}${this.api_key}`, {headers:header,withCredentials: false});
   }
 
   getRoverData():Observable<NasaRoverData>
