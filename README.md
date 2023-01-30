@@ -26,9 +26,6 @@ An input for the user's API Key will be provided before request is submitted by 
     - built in pipe date used in api-detail page
     
 - Angular 15
-- Typescript
-- ngrx 
-- Kendo UI 
 
 ## Learning Objectives
 
@@ -45,10 +42,8 @@ An input for the user's API Key will be provided before request is submitted by 
 - ngStyle
 - ngSwitch
 - Built-In Pipes 
-- Async Pipe
-- Custom Pipes
 - @Injectable and Custom Services
-- HTTP Client - GET POST PUT DELETE
+
 
 
 ## NOTE: This is not for Commercial purposes.
