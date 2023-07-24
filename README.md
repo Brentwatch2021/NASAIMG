@@ -1,6 +1,6 @@
 # Nasa Image of the Day
 
-![NASA](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/1280px-NASA_Worm_logo.svg.png)
+![Main Demo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/1280px-NASA_Worm_logo.svg.png)
 
 Live Demo link [here](https://brentwatch2021.github.io/NASAIMG/)
 
